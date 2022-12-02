@@ -21,5 +21,5 @@ spec:
       - image: laravelsampleacr.azurecr.io/laravelsample:00d1ad70541ac32bf78a0748a1aa546f7b3190e7
         name: laravelsample
         ports:
-        - containerPort: 3000
+        - containerPort: 8080
         resources: {}
