@@ -18,11 +18,8 @@ spec:
         app: laravelsample
     spec:
       containers:
-      - image: laravelsampleacr.azurecr.io/laravelsample:0c8451d98ab77c3f4e74fbc435942175c557319a
+      - image: laravelsampleacr.azurecr.io/laravelsample:00d1ad70541ac32bf78a0748a1aa546f7b3190e7
         name: laravelsample
         ports:
         - containerPort: 3000
         resources: {}
-status: {}
-{}
-status: {}
